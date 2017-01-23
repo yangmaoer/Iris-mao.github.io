@@ -5,11 +5,14 @@ date:   2017-01-12 10:19:19 +0800
 categories: jekyll HTML5 wordpress
 tags: wordpress
 ---
+
 ####WordPress快速建站
+
 #####简单介绍：
 <p>WordPress是一种使用PHP语言开发的博客平台，用户可以在支持PHP和MySQL数据库的服务器上架设属于自己的网站。也可以把 WordPress当作一个内容管理系统（CMS）来使用。
 WordPress是一款个人博客系统，并逐步演化成一款内容管理系统软件，它是使用PHP语言和MySQL数据库开发的。用户可以在支持 PHP 和 MySQL数据库的服务器上使用自己的博客。
 WordPress有许多第三方开发的免费模板，安装方式简单易用。不过要做一个自己的模板，则需要你有一定的专业知识。比如你至少要懂的标准通用标记语言下的一个应用HTML代码、CSS、PHP等相关知识。</p>
+
 #####步骤：
 * 下载wordpresscms安装包https://cn.wordpress.org/（官网）
 * 将压缩包解压到配置环境中，我本地用的phpstudy配置环境，要配置php+mysql+apche环境，运行/wp-admin/setup-config.php
