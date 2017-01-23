@@ -7,9 +7,9 @@ tags: wordpress
 ---
 ####WordPress快速建站
 #####简单介绍：
-WordPress是一种使用PHP语言开发的博客平台，用户可以在支持PHP和MySQL数据库的服务器上架设属于自己的网站。也可以把 WordPress当作一个内容管理系统（CMS）来使用。
+<p>WordPress是一种使用PHP语言开发的博客平台，用户可以在支持PHP和MySQL数据库的服务器上架设属于自己的网站。也可以把 WordPress当作一个内容管理系统（CMS）来使用。
 WordPress是一款个人博客系统，并逐步演化成一款内容管理系统软件，它是使用PHP语言和MySQL数据库开发的。用户可以在支持 PHP 和 MySQL数据库的服务器上使用自己的博客。
-WordPress有许多第三方开发的免费模板，安装方式简单易用。不过要做一个自己的模板，则需要你有一定的专业知识。比如你至少要懂的标准通用标记语言下的一个应用HTML代码、CSS、PHP等相关知识。
+WordPress有许多第三方开发的免费模板，安装方式简单易用。不过要做一个自己的模板，则需要你有一定的专业知识。比如你至少要懂的标准通用标记语言下的一个应用HTML代码、CSS、PHP等相关知识。</p>
 #####步骤：
 * 下载wordpresscms安装包https://cn.wordpress.org/（官网）
 * 将压缩包解压到配置环境中，我本地用的phpstudy配置环境，要配置php+mysql+apche环境，运行/wp-admin/setup-config.php
@@ -19,7 +19,7 @@ WordPress有许多第三方开发的免费模板，安装方式简单易用。�
 * 可以先在本地编写好你的静态页面之后，然后用wordpress进行套站
 * 在/wp-content/themes文件夹下建立自己的主题文件夹，然后进入后台的《外观》-《主题》界面选择自己建的主题即可
 ![QQ截图20170123093432.png](C:\Users\Iris\Desktop\wprdpress\QQ截图20170123093432.png)
-1、如何把静态页面制作成主题
+<p>1、如何把静态页面制作成主题
 2、有多个CSS文件的时候，用哪个文件作为style.css
 制作一个最简单的主题，只需要两个文件，index.php和style.css（放在当前文件夹下面）
 第一步，准备静态页面
@@ -39,6 +39,7 @@ WordPress有许多第三方开发的免费模板，安装方式简单易用。�
     ```
 Style.css路径调用：<?php bloginfo( 'stylesheet_url' ); ?>
 主题文件夹路径：<?php bloginfo('template_directory'); ?>
+</p>
 * 制作顶部header.php和底部footer.php
 需要用到的调用标签：
 ```
