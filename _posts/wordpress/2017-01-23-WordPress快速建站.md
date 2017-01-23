@@ -15,10 +15,10 @@ WordPress有许多第三方开发的免费模板，安装方式简单易用。�
 * 将压缩包解压到配置环境中，我本地用的phpstudy配置环境，要配置php+mysql+apche环境，运行/wp-admin/setup-config.php
 * 在本地数据库中新建wordpress数据库
 * 在网页上运行/wp-admin/setup-config.php之后，点击按钮进行一步步安装，安装完成之后就进入了wordpress的后台界面，
-![wordpress后台界面.png](.\wprdpress\QQ截图20170123090721.png)
+![QQ截图20170123090721.png](C:\Users\Iris\Desktop\wprdpress\QQ截图20170123090721.png)
 * 可以先在本地编写好你的静态页面之后，然后用wordpress进行套站
 * 在/wp-content/themes文件夹下建立自己的主题文件夹，然后进入后台的《外观》-《主题》界面选择自己建的主题即可
-![QQ截图20170123093432.png](.\wprdpress\QQ截图20170123093432.png)
+![QQ截图20170123093432.png](C:\Users\Iris\Desktop\wprdpress\QQ截图20170123093432.png)
 1、如何把静态页面制作成主题
 2、有多个CSS文件的时候，用哪个文件作为style.css
 制作一个最简单的主题，只需要两个文件，index.php和style.css（放在当前文件夹下面）
@@ -103,5 +103,5 @@ $categories=get_categories($args);
         }
         ?>
    ```
-![QQ截图20170123100720.png](.\wprdpress\QQ截图20170123100720.png)
+![QQ截图20170123100720.png](C:\Users\Iris\Desktop\wprdpress\QQ截图20170123100720.png)
 * 经过以上步骤基本就能搭建一个简单的cms页面了，更多的可以到https://www.wpdaxue.com/进行学习
